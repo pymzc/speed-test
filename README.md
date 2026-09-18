@@ -13,3 +13,10 @@
 Запуск теста по умолчанию:
 ```bash
 uv run speedtest.py
+
+## Тесты
+
+Тесты написаны с использованием встроенного фреймворка `unittest`:
+
+```bash
+uv run python -m unittest test_speedtest.py
